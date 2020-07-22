@@ -1,0 +1,7 @@
+export const TOGGLE_SPINNER = "TOGGLE_SPINNER";
+export const ADD_GLOBAL_INFO = "ADD_GLOBAL_INFO";
+export const ADD_COUNTRIES = "ADD_COUNTRIES";
+export const ADD_COUNTRY = "ADD_COUNTRY";
+export const REMOVE_COUNTRY = "REMOVE_COUNTRY";
+export const ADD_ERROR = "ADD_ERROR";
+export const REMOVE_ERROR = "REMOVE_ERROR";

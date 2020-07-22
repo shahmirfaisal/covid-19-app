@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #6590ff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}

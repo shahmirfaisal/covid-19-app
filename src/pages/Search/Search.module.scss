@@ -1,0 +1,40 @@
+.form {
+  width: 40rem;
+  margin: 4rem auto 0 auto;
+
+  @media (max-width: 1020px) {
+    width: 100%;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid rgb(121, 121, 121);
+    background-color: transparent;
+    outline: none;
+    padding: 0.5rem;
+    &:focus {
+      border-bottom: 1px solid var(--primary-color);
+    }
+  }
+
+  button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.6rem;
+    font-size: 1.05rem;
+    display: block;
+    width: 100%;
+    margin: 1rem auto 0 auto;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    &:hover {
+      background-color: lighten(#6590ff, 4%);
+    }
+  }
+}
